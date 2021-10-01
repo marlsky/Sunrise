@@ -90,7 +90,7 @@ header{
 }
 .calendar{
     display: flex;
-    width: 147px;
+    width: 160px;
 }
 .calendar img{
     margin-right: 15px;
@@ -207,3 +207,4 @@ footer{
     }
     
 }
+
