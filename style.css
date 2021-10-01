@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 
-/* main */
+/* main css */
 body{
     background-color: #F6F8FC;
     font-family: 'Saira', sans-serif;
@@ -178,7 +178,7 @@ footer{
     
 }
 
-/* media query*/
+/* media query */
 @media (max-width: 914px) {
     .container{
         width: 638px;
