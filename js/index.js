@@ -84,10 +84,15 @@ const day = hour * 24;
 
 ////////////////////////////add 0 /////////////////////////////////////
 function pad(value) {
-    if(value < 10) {
-        return '0' + value;
-    } else {
+
+    if(value < 0){
         return value;
+    }else{
+        if(value < 10) {
+            return '0' + value;
+        } else {
+        return value;
+        }
     }
 }
 
